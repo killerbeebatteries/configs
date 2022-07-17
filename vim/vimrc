@@ -1,0 +1,12 @@
+"
+" vim config
+"
+
+" join the dark side
+set background=dark
+
+" 2 whitespaces for tabs
+" borrowed from: https://vim.fandom.com/wiki/Converting_tabs_to_spaces
+set tabstop=2
+set shiftwidth=2
+set expandtab
