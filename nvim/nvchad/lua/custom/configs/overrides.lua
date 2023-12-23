@@ -14,6 +14,11 @@ M.treesitter = {
     "markdown_inline",
     "python",
     "go",
+    "terraform",
+    "json",
+    "yaml",
+    "toml",
+    "bash",
   },
   indent = {
     enable = true,
@@ -45,6 +50,10 @@ M.mason = {
 
     -- golang
     "gopls",
+
+    -- bash
+    "shellcheck",
+
   },
 }
 

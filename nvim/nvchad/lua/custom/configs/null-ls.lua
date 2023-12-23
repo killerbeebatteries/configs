@@ -23,6 +23,12 @@ local sources = {
 
   -- terraform
   b.formatting.terraform_fmt,
+
+  -- bash
+  b.formatting.shfmt,
+
+  -- sql
+  b.formatting.sqlformat,
 }
 
 null_ls.setup {
