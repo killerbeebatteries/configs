@@ -20,6 +20,9 @@ local sources = {
   -- golang
   b.formatting.goimports,
   b.formatting.gofmt,
+
+  -- terraform
+  b.formatting.terraform_fmt,
 }
 
 null_ls.setup {
