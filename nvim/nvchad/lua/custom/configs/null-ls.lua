@@ -16,6 +16,10 @@ local sources = {
 
   -- python
   b.formatting.black,
+
+  -- golang
+  b.formatting.goimports,
+  b.formatting.gofmt,
 }
 
 null_ls.setup {
