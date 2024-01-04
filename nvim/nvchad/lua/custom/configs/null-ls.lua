@@ -18,8 +18,9 @@ local sources = {
   b.formatting.black,
 
   -- golang
-  b.formatting.goimports,
+  b.formatting.goimports_reviser,
   b.formatting.gofmt,
+  b.formatting.golines,
 
   -- terraform
   b.formatting.terraform_fmt,
@@ -29,6 +30,11 @@ local sources = {
 
   -- sql
   b.formatting.sqlformat,
+
+  -- yaml
+  b.formatting.yq,
+  b.diagnostics.yamllint,
+
 }
 
 null_ls.setup {
