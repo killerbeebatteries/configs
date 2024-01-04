@@ -60,6 +60,7 @@ local plugins = {
   --   "mg979/vim-visual-multi",
   --   lazy = false,
   -- }
+
   {
     "github/copilot.vim",
     lazy = false,
@@ -71,6 +72,20 @@ local plugins = {
     -- or run <leader>ch to see copilot mapping section
     end
   },
-}
+
+--   {
+--     "jackMort/ChatGPT.nvim",
+--     event = "VeryLazy",
+--     dependencies = {
+--       "MunifTanjim/nui.nvim",
+--       "nvim-lua/plenary.nvim",
+--       "nvim-telescope/telescope.nvim",
+--     },
+--     config = function()
+--       require("chatgpt").setup({
+--       })
+--     end,
+--   }
+ }
 
 return plugins
