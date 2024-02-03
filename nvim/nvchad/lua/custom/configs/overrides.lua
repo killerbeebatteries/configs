@@ -19,6 +19,7 @@ M.treesitter = {
     "yaml",
     "toml",
     "bash",
+    "sql",
   },
   indent = {
     enable = true,
@@ -53,6 +54,9 @@ M.mason = {
 
     -- bash
     "shellcheck",
+
+    -- sql
+    "sqlfluff",
 
   },
 }

@@ -35,6 +35,12 @@ local sources = {
   b.formatting.yq,
   b.diagnostics.yamllint,
 
+  -- sql
+  b.diagnostics.sqlfluff.with({
+    extra_args = { "--dialect", "postgres" },
+  }),
+  b.formatting.sqlformat,
+
 }
 
 null_ls.setup {
